@@ -4,6 +4,10 @@ import io.vertx.core.Vertx;
 import io.vertx.core.http.HttpClient;
 import io.vertx.core.http.HttpMethod;
 
+/**
+ * Main class to show that the connection error is reported correctly through the exceptionHandler.
+ * No use of rx-ified Vert.x API.
+ */
 public class TestVertxHttpClient {
 
     public static void sendRequest(Vertx vertx) {
